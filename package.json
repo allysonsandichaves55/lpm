@@ -1,21 +1,35 @@
 {
   "name": "lpm",
   "version": "1.0.0",
-  "description": "",
+  "description": "``` # get repo git clone git@github.com:jbastias/lpm.git",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Allyson",
   "license": "ISC",
   "dependencies": {
     "yargs": "^17.7.1"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.17.0",
     "@types/yargs": "^17.0.24",
-    "typescript": "^5.0.3"
-  }
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.33.0",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbastias/lpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbastias/lpm/issues"
+  },
+  "homepage": "https://github.com/jbastias/lpm#readme"
 }
